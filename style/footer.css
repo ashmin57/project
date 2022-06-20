@@ -1,0 +1,76 @@
+.content{
+  background-color: #F0EDFF;
+}
+.hero {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/cover.jpeg);
+    background-repeat: none;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  .hero h1,
+  .hero h2 {
+    color: #F0EDFF;
+    font-size: 20px;
+    text-shadow: 2px 2px #000;
+    margin-bottom: 40px;
+  }
+  .hero h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+  }
+  .hero a.btn {
+    color: white;
+    background-color: #041442;
+    text-decoration: none;
+    padding: 20px 46px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    opacity: 1;
+    border: 1px solid wheat;
+  }
+  .hero a.btn:hover {
+    background-color: #3B3E73;
+  }
+  a {
+    color: white;
+  }
+  footer {
+    width: 100%;
+    color: wheat;
+    text-align: center;
+    float:left;
+    background: black;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer p {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgb(255, 255, 2555, 0.6);
+    margin-bottom: 10px;
+  }
+  footer ul {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+  }
+  footer ul li {
+    margin: 20px;
+  }
+  footer ul li a {
+    font-size: 36px;
+    cursor: pointer;
+  }
+  ul {
+    list-style: none;
+  }
